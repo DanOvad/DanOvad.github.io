@@ -24,9 +24,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
                 </ul>
@@ -39,13 +40,83 @@
                 <div class="resume-section-content">
                     <h1 class="mb-0"> Dan <span class="text-primary">Ovadia</span></h1>
                     <div class="subheading mb-5">(818) 216-9177 · <a href="mailto:dodano2@gmail.com">dodano2@gmail.com</a></div>
-                    <p class="lead mb-5">Data engineer with a passion for putting data in context and building robust workflows for meaningful interpretation and usability. I am fascinated by the insurance industry's methods of carving out and assessing risk, and excited by the data science community's ability to manage and analyze data to provide insights in responding to and mitigating risk.</p>
+                    <p class="lead mb-5">
+                      Data Engineer with a knack for cleaning, organizing, and understanding data. It is a passion of mine to build pipelines, create models, and evaluate results for meaningful interpretation and usability. I am skilled in gathering stakeholder requirements, understanding and interpreting users’ needs and expectations, and evaluating the limitations and capabilities of specific data structures and sources. I am always curious where data comes from, how it was collected, and what it can achieve.<br><br>
+
+                      I am fascinated by the insurance industry’s methods of carving out and assessing risk, and excited by the data science community’s ability to manage and analyze data to provide insights in responding to and mitigating risk.</p>
                     <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/dan-ovadia/"><i class="fab fa-linkedin-in"></i></a><a class="social-icon" href="https://www.github.com/danovad"><i class="fab fa-github"></i></a><a class="social-icon" href="#"><i class="fab fa-twitter"></i></a><a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-icon" href="https://www.linkedin.com/in/dan-ovadia/"><i class="fab fa-linkedin-in"></i></a><a class="social-icon" href="https://www.github.com/danovad"><i class="fab fa-github"></i></a>
                     </div>
                 </div>
             </section>
             <hr class="m-0" />
+            <!-- Projects-->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3">Youtube Featured Channels Network Analysis</div>
+                                <ul class="fa-ul mb-0">
+                                    <li> Used Google's Youtube Data API v3 to request details on a list of channels and then crawled through featured channels listed on each subsequent list of channels.</li>
+                                    <a href = https://github.com/DanOvad/youtube-channel-analysis>Github Repo</a>
+                                </ul><br>
+                            <div class="subheading mb-3">Reddit Project</div>
+                                <ul class="fa-ul mb-0">
+                                    <li> Scrapped data from reddit and used NLP techniques to predict if a string of text resembles the r/datascience community or the r/machinelearning community.</li>
+                                    <a href = https://github.com/DanOvad/reddit-nlp>Github Repo</a>
+                                </ul><br>
+                            <div class="subheading mb-3">Covid Hotspots</div>
+                                <ul class="fa-ul mb-0">
+                                    <li>Used plotly and dash to create an interactive dashboard to plot deaths by county, deaths by state, and compare death rates by region based on density and adjusted density.</li>
+                                    <a href = https://covid-hotspots-ga-dsi-la-11.herokuapp.com/> Heroku App</a> <br>
+                                    <a href = https://github.com/DanOvad/covid-hotspots> Github Repo</a>
+                                </ul><br>
+                            <div class="subheading mb-3">Wildfire Risk</div>
+                                <ul class="fa-ul mb-0">
+                                    <li>Used publically available data from USDA Forest Service and Bureau of Land Management to predict the cause of wildfires in the United States based on date and location.</li>
+                                    <a href = https://github.com/DanOvad/US-wildfire-causes>Github Repo </a>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+              </section>
+              <hr class="m-0" />
+              <!-- Skills-->
+              <section class="resume-section" id="skills">
+                  <div class="resume-section-content">
+                      <h2 class="mb-5">Skills</h2>
+                      <div class="subheading mb-3">Programming Languages & Tools</div>
+                      <p>Python, R, SQL, LaTeX, VBA, git, github, Linux, JIRA, Confluence
+                      <ul class="list-inline dev-icons">
+                          <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                          <li class="list-inline-item"><i class="fab fa-r-project"></i></li>
+                          <li class="list-inline-item"><i class="fab fa-git"></i></li>
+                          <li class="list-inline-item"><i class="fab fa-github"></i></li>
+                          <li class="list-inline-item"><i class="fab fa-linux"></i></li>
+                          <li class="list-inline-item"><i class="fab fa-jira"></i></li>
+                          <li class="list-inline-item"><i class="fab fa-confluence"></i></li>
+                      </ul>
+                      <div class="subheading mb-3">Python Libraries</div>
+                      <p>Pandas, NumPy, SciPy, Scikit-Learn, StatsModels, Matplotlib, Seaborn, Plotly, Dash, NLTK, Flask, TensorFlow, GeoPandas, pyMC3, Regex</p>
+                      <div class="subheading mb-3">Data Science Methodologies</div>
+                      <p>Hypothesis testing, Regression, Classification, GridSearch, Clustering, PCA, NLP, Time Series, MCMC, A/B Testing, Neural Networks</p>
+                      <div class="subheading mb-3">Other Technologies</div>
+                      <p>JupyterLab, GCP, Spark, Excel, Tableau, GIS, RMS RiskLink, AIR Touchstone</p>
+                      <!--
+                      <ul class="fa-ul mb-0">
+                          <li>
+                              <span class="fa-li"><i class="fas fa-check"></i></span>-
+                          </li>
+                          <li>
+                              <span class="fa-li"><i class="fas fa-check"></i></span>-
+                          </li>
+                          <li>
+                              <span class="fa-li"><i class="fas fa-check"></i></span>Agile Development & Scrum
+                          </li>
+                      </ul>-->
+                  </div>
+              </section>
             <!-- Experience-->
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
@@ -54,10 +125,11 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Software Developer, Independent Contractor</h3>
                             <div class="subheading mb-3">Catalytic Risk Managers, LLC</div>
-                            <p>• Managed the implementation of data workflows, data warehousing, and pricing algorithms for web-based underwriting to improve data availability during the underwriting process and consolidate data for portfolio rollups <br>
-• Built ETL process to warehouse portfolio analyses from RMS and AIR for automated reporting and optimization <br>
-• Established time-series data warehouse to enable portfolio managers to monitor day-to-day portfolio impacts <br>
-• Assessed data requirements and designed ETL processes for automated portfolio rollups and optimization</p>
+                            <p>
+                              • Managed the implementation of data workflows, data warehousing, and pricing algorithms for web-based underwriting to improve data availability during the underwriting process and consolidate data for portfolio rollups <br>
+                              • Built ETL process to warehouse portfolio analyses from RMS and AIR for automated reporting and optimization <br>
+                              • Established time-series data warehouse to enable portfolio managers to monitor day-to-day portfolio impacts <br>
+                              • Assessed data requirements and designed ETL processes for automated portfolio rollups and optimization</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">August 2019 - December 2019</span></div>
                     </div>
@@ -65,12 +137,13 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Programmer Analyst</h3>
                             <div class="subheading mb-3">Catalytic Risk Managers, LLC</div>
-                            <p>• Gathered requirements, designed data models, and wire-framed UX designs for web-based underwriting platform <br>
-• Built tools to maintain data integrity of aggregate tracking and account impact analysis as dictated by contracts <br>
-• Built, designed, and maintained database schemas and SQL procedures for data management <br>
-• Responded to ad hoc requests to support daily operation in IMS, model automation, and portfolio management <br>
-• Created reports through SSRS for portfolio management and business reporting <br>
-• Managed JIRA projects and maintained ERDs, software documentation, and meeting notes</p>
+                            <p>
+                              • Gathered requirements, designed data models, and wire-framed UX designs for web-based underwriting platform <br>
+                              • Built tools to maintain data integrity of aggregate tracking and account impact analysis as dictated by contracts <br>
+                              • Built, designed, and maintained database schemas and SQL procedures for data management <br>
+                              • Responded to ad hoc requests to support daily operation in IMS, model automation, and portfolio management <br>
+                              • Created reports through SSRS for portfolio management and business reporting <br>
+                              • Managed JIRA projects and maintained ERDs, software documentation, and meeting notes</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">June 2018 - April 2019</span></div>
                     </div>
@@ -78,71 +151,40 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Modeling Analyst</h3>
                             <div class="subheading mb-3">Catalytic Risk Managers, LLC</div>
-                            <p>• Independently created tools for converting portfolios and reconciling databases in Excel VBA to enable onboarding of new modeling software (AIR) into daily operations and maintain data integrity across modeling platforms <br>
-• Migrated legacy reporting tools for individual accounts and portfolio analyses from VBA to SQL <br>
-• Modeled individual accounts using RMS’s RiskLink and AIR-Worldwide’s Touchstone</p>
+                            <p>
+                              • Independently created tools for converting portfolios and reconciling databases in Excel VBA to enable onboarding of new modeling software (AIR) into daily operations and maintain data integrity across modeling platforms <br>
+                              • Migrated legacy reporting tools for individual accounts and portfolio analyses from VBA to SQL <br>
+                              • Modeled individual accounts using RMS’s RiskLink and AIR-Worldwide’s Touchstone</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">March 2016 - May 2018</span></div>
                     </div>
+                </div>
+            </section>
 
             <hr class="m-0" />
             <!-- Education-->
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">General Assembly</h3>
+                            <div class="subheading mb-3">Data Science Immsersive Bootcamp</div>
+                            <p>• Created a predictive model using NLP techniques to predict if text is associated with the data science community or the machine learning community from scrapped data from r/datascience and r/machinelearning subreddits.<br>
+                            • Constructed a dashboard mapping covid hotspots using plotly and dash. Focused on mapping deaths and assessed deaths by population density and adjusted density.<br>
+                            • Built a binomial classification model predicting the cause of fires in the United States based on date and location using K-Nearest Neighbors.
+                            <p>Topics Covered: EDA, Linear and Logistic Regression, Hypothesis Testing, Web Scraping, Bootstrapping, NLP, Bias-Variance Tradeoff, Regularization & Optimization, Gradient Descent, Naive Bayes, Hadoop & MapReduce, Hive & Spark, Time Series Analysis, Neural Networks, Recommender Systems, Churn Analysis</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">March 2020 - June 2020</span></div>
+                    </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">University of California, San Diego</h3>
-                            <div class="subheading mb-3">Bachelor of Science</div>
-                            <div>Joint Economics and Mathematics</div>
-                            <p>GPA: </p>
+                            <div class="subheading mb-3">Bachelor of Science, Joint Economics and Mathematics</div>
+                            <p>Proposed, constructed, and presented a theoretical model to examine the behavior of gift cards using an Arrow-Debreu Economy to emphasize consumer-producer surplus relationship of retailers.</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">September 2012 - June 2015</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">North Hollywood High School</h3>
-                            <div class="subheading mb-3">Highly Gifted Magnet Program</div>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2005 - June 2009</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Skills-->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
-                    </ul>
-                    <div class="subheading mb-3">Workflow</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>Mobile-First, Responsive Design
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>Cross Browser Testing & Debugging
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>Agile Development & Scrum
-                        </li>
-                    </ul>
                 </div>
             </section>
             <hr class="m-0" />
@@ -150,8 +192,11 @@
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                    <p>Aside from my interest in data and insurance, I am an avid cook, gardener, and amateur wood-worker. Working with data takes a lot of tedious attention and foresight, outside of work it's a pleasure to work on something that requires the same kind of planning and attention, but that can be incorporated into muscle memory. Plus the aromas, visuals, and textures of these hobbies are a lot more nourishing to the soul than those associated with coding all day.</p>
+                    <p>I also enjoy furthering my technical skills by trying new projects involving hardware. I have been filming timelapses of sunrises and sunsets for around a year now and have started working on building a system using a Raspberry Pi to automatically film every sunrise and sunset along with collecting some rudimentatry local weather data. My long term goal is to record weather and cloud data locally, push it to GCP cloud SQL and predict if a sunrise or sunset might be considered noteable to the human eye. </p>
+                    <p>I have also started getting into building and flying drones. There is something rewarding and satsifying in going on a hike or bikeride and capturing an aerial view of the natural sights around you.</p>
+                    <IMG SRC="assets/img/sunset_480p.gif"; width = auto; height = auto>
+                    <!--<video controls="controls" width="855" height="480" name="Sunset" src="assets/img/sunset.mov"></video>-->
                 </div>
             </section>
             <hr class="m-0" />
@@ -161,25 +206,10 @@
                     <h2 class="mb-5">Awards & Certifications</h2>
                     <ul class="fa-ul mb-0">
                         <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>Google Analytics Certified Developer
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>2006 Presidential Service Award for volunteer work at Operation Gratitude
                         </li>
                         <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>Mobile Web Specialist - Google Certification
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>1<sup>st </sup>Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>1<sup>st </sup>Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>2<sup>nd </sup>Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>1<sup>st </sup>Place - James Buchanan High School - Hackathon 2006
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>3<sup>rd </sup>Place - James Buchanan High School - Hackathon 2005
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>Coursera John's Hopkins
                         </li>
                     </ul>
                 </div>
